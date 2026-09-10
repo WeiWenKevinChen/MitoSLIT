@@ -1,4 +1,4 @@
-# A Guide for MitoSLIT Pipeline
+# MitoSLIT Pipeline
 
 Welcome to **MitoSLIT** (*Mitochondria Segmentation with Locally Iterative Thresholding*)!
 
