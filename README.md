@@ -46,7 +46,7 @@ Open [`MitoSLIT_pipeline.py`](./MitoSLIT_pipeline.py) in your code editor (e.g.,
 Scroll to **Section 1: USER CONFIGURATION** (lines 85–148) and customize settings if needed:
 - `input_dir`: Path to your raw images folder (e.g. `r".\MitoSLIT"`).
 - `output_dir`: Path where output masks will be saved (e.g. `r".\MitoSLIT\filtered"`).
-- `fluo_keyword`: Keyword that identifies your fluorescence images (e.g. `("FluoIntensity",)` or `"FLIM"` or `"Ch2"` or `"GFP"`).
+- `fluo_keyword`: Keyword that identifies your fluorescence images (e.g. `"FluoIntensity"` or `"FLIM"` or `"Ch2"` or `"GFP"`).
 - `roi_keyword`: Keyword that identifies your tissue ROI masks (e.g. `"roi"`).
 
 ### Step 3: Run the Script
