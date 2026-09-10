@@ -1,0 +1,14 @@
+name: mitoSLIT
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<=3.12
+  - numpy>=1.22.0,<=2.1.0
+  - scipy>=1.8.0
+  - scikit-image>=0.20.0
+  - tifffile>=2022.5.4
+  - opencv>=4.5.0
+  - matplotlib>=3.5.0
+  - pandas>=1.4.0
+  - pip
