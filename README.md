@@ -90,7 +90,7 @@ All user-configurable parameters are centralized in `MitoSLITConfig` near the to
 
 ### Keyword Filters
 - `fluo_keyword` *(str or tuple)*: Keyword(s) required in fluorescence filenames (case-insensitive).  
-  *Examples*: `("FluoIntensity",)`, `"FLIM"`, `"Ch2"`, `"GFP"`. Leave as `""` or `()` to match all TIFFs.
+  *Examples*: `"FluoIntensity"`, `"FLIM"`, `"Ch2"`, `"GFP"`. Leave as `""` or `()` to match all TIFFs.
 - `roi_keyword` *(str)*: Keyword identifying tissue ROI files (case-insensitive).  
   *Examples*: `"roi"`, `"_roi"`, `"TissueROI"`. Set to `""` if you do not have ROI files.
 - `exclude_keywords` *(str or tuple)*: Keywords that ignore unwanted images (case-insensitive).  
