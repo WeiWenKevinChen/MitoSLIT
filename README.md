@@ -2,7 +2,7 @@
 
 Welcome to **MitoSLIT** (*Mitochondria Segmentation with Locally Iterative Thresholding*)!
 
-This pipeline is designed for researchers and students to segment mitochondrial networks from fluorescence microscopy images (such as confocal, TPEF, or 2p-FLIM TIFF images).
+This pipeline is designed for researchers and students to segment mitochondrial networks from fluorescence microscopy images (such as confocal, TPEF, or 2p-FLIM TIFF images). The run time depends on the image size and resolution. The processing time will be longer if the image size is larger (more pixels) or the mitochondrial structures are more complicated. A typical running time for an image with 512*512 (pixels*pixels) is 40-80 s.
 
 ---
 
