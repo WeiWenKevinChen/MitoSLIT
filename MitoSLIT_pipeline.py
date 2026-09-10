@@ -91,7 +91,7 @@ class MitoSLITConfig:
 
     # --- File Search Keywords (User-Defined) ---
     # Keyword(s) that MUST be present in the fluorescence intensity image filename.
-    # Examples: "FLIM", "Ch2", "GFP", or a tuple like ("FLIM",) or ("Ch2",).
+    # Examples: "FluoIntensity", "FLIM", "Ch2", "GFP", or a tuple like ("FLIM",) or ("Ch2",).
     # Case-insensitive. Leave as "" or () to match all TIFF images.
     fluo_keyword: Union[str, Tuple[str, ...]] = ("FluoIntensity",)
 
